@@ -90,24 +90,6 @@ HTML, CSS, JavaScript, Node.js, Express.js, MySQL
 
 🔗 [View Project](https://github.com/mkgtm28/PartTrack-Pro)
 
-### 2. Smart Attendance
-
-**Face Recognition Attendance System**
-
-A web-based attendance management system built with Node.js and Express.js.
-
-#### Features
-
-- Face Recognition
-- Employee Management
-- Attendance Management
-- Attendance Reports
-- Authentication
-
-**Technologies:**
-
-HTML, CSS, JavaScript, Node.js, Express.js, MySQL
-
 ## 📈 Currently Learning
 
 I am continuously improving my development skills and currently focusing on:
