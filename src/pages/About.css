@@ -1,0 +1,640 @@
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-page {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 80% 15%,
+      rgba(37, 99, 235, 0.12),
+      transparent 30%
+    ),
+    #030712;
+
+  color: white;
+
+  /* Prevent fixed navbar from covering the page */
+  padding-top: 70px;
+}
+
+
+/* =========================
+   ABOUT HERO
+========================= */
+
+.about-hero {
+  width: min(1100px, 90%);
+  margin: auto;
+
+  padding: 70px 0 70px;
+}
+
+.about-heading {
+  max-width: 800px;
+}
+
+.section-label {
+  color: #60a5fa;
+
+  font-size: 25px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 16px;
+}
+
+.about-heading h1 {
+  font-size: clamp(42px, 6vw, 68px);
+
+  line-height: 1.1;
+
+  letter-spacing: -2px;
+
+  margin-bottom: 25px;
+}
+
+.about-heading h1 span,
+.about-story h2 span,
+.section-title-center h2 span {
+  background: linear-gradient(
+    90deg,
+    #60a5fa,
+    #2563eb,
+    #38bdf8
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.about-intro {
+  color: #9ca3af;
+
+  font-size: 18px;
+  line-height: 1.8;
+
+  max-width: 720px;
+}
+
+
+/* =========================
+   STORY
+========================= */
+
+.about-story {
+  width: min(1100px, 90%);
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr;
+
+  gap: 80px;
+
+  padding: 70px 0 100px;
+}
+
+.story-text h2 {
+  font-size: 38px;
+
+  line-height: 1.2;
+
+  margin-bottom: 28px;
+}
+
+.story-text p:not(.section-label) {
+  color: #9ca3af;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+
+  margin-bottom: 18px;
+}
+
+
+/* =========================
+   ABOUT CARD
+========================= */
+
+.about-card {
+  align-self: center;
+
+  padding: 32px;
+
+  border: 1px solid rgba(59, 130, 246, 0.2);
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(17, 24, 39, 0.9),
+      rgba(3, 7, 18, 0.8)
+    );
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.about-card-icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: rgba(37, 99, 235, 0.12);
+
+  color: #60a5fa;
+
+  margin-bottom: 20px;
+}
+
+.about-card h3 {
+  font-size: 21px;
+
+  margin-bottom: 20px;
+}
+
+.about-card ul {
+  list-style: none;
+}
+
+.about-card li {
+  color: #9ca3af;
+
+  padding: 10px 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.about-card li::before {
+  content: "→";
+
+  color: #3b82f6;
+
+  margin-right: 10px;
+}
+
+
+/* =========================
+   JOURNEY
+========================= */
+
+.journey-section {
+  width: min(1100px, 90%);
+  margin: auto;
+
+  padding: 90px 0;
+}
+
+.section-title-center {
+  text-align: center;
+
+  margin-bottom: 70px;
+}
+
+.section-title-center h2 {
+  font-size: 40px;
+
+  line-height: 1.2;
+}
+
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline {
+  position: relative;
+
+  max-width: 850px;
+
+  margin: auto;
+}
+
+.timeline::before {
+  content: "";
+
+  position: absolute;
+
+  left: 25px;
+  top: 10px;
+  bottom: 10px;
+
+  width: 1px;
+
+  background:
+    linear-gradient(
+      to bottom,
+      #2563eb,
+      rgba(37, 99, 235, 0.05)
+    );
+}
+
+.timeline-item {
+  position: relative;
+
+  display: flex;
+
+  gap: 30px;
+
+  margin-bottom: 55px;
+}
+
+.timeline-dot {
+  width: 51px;
+  height: 51px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #0f172a;
+
+  border: 1px solid #2563eb;
+
+  color: #60a5fa;
+
+  z-index: 2;
+}
+
+.timeline-content {
+  padding-top: 2px;
+}
+
+.timeline-content > span {
+  color: #3b82f6;
+
+  font-size: 25px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.timeline-content h3 {
+  font-size: 21px;
+
+  margin: 7px 0 10px;
+}
+
+.timeline-content p {
+  color: #9ca3af;
+
+  line-height: 1.7;
+
+  font-size: 15px;
+}
+
+
+/* =========================
+   CURRENT FOCUS
+========================= */
+
+.focus-section {
+  width: min(1100px, 90%);
+  margin: auto;
+
+  padding: 80px 0 120px;
+}
+
+.focus-content {
+  max-width: 850px;
+
+  margin: auto;
+
+  padding: 55px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(59, 130, 246, 0.2);
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(37, 99, 235, 0.12),
+      transparent 65%
+    ),
+    rgba(15, 23, 42, 0.5);
+}
+
+.focus-content h2 {
+  font-size: 38px;
+
+  margin-bottom: 18px;
+}
+
+.focus-content > p:not(.section-label) {
+  color: #9ca3af;
+
+  max-width: 650px;
+
+  margin: 0 auto 28px;
+
+  line-height: 1.8;
+}
+
+.focus-btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+.focus-btn:hover {
+  background: #1d4ed8;
+
+  transform: translateY(-3px);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 800px) {
+
+  .about-page {
+    padding-top: 70px;
+  }
+
+  .about-hero {
+    padding: 60px 0 60px;
+  }
+
+  .about-story {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+
+    padding: 60px 0 80px;
+  }
+
+  .story-text h2 {
+    font-size: 32px;
+  }
+
+  .section-title-center h2 {
+    font-size: 32px;
+  }
+
+  .timeline-item {
+    gap: 20px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 500px) {
+
+  .about-page {
+    /* Extra space for fixed mobile navbar */
+    padding-top: 70px;
+  }
+
+  .about-hero {
+    width: 90%;
+
+    padding: 45px 0 50px;
+  }
+
+  .section-label {
+    font-size: 20px;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 14px;
+  }
+
+  .about-heading h1 {
+    font-size: 42px;
+
+    letter-spacing: -1.5px;
+
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+  }
+
+  .about-intro {
+    font-size: 16px;
+
+    line-height: 1.8;
+  }
+
+
+  /* STORY */
+
+  .about-story {
+    width: 90%;
+
+    padding: 50px 0 70px;
+
+    gap: 35px;
+  }
+
+  .story-text h2 {
+    font-size: 30px;
+
+    margin-bottom: 22px;
+  }
+
+  .story-text p:not(.section-label) {
+    font-size: 15px;
+
+    line-height: 1.8;
+  }
+
+
+  /* CARD */
+
+  .about-card {
+    padding: 25px;
+
+    border-radius: 16px;
+  }
+
+  .about-card h3 {
+    font-size: 19px;
+  }
+
+  .about-card li {
+    font-size: 14px;
+
+    padding: 9px 0;
+  }
+
+
+  /* JOURNEY */
+
+  .journey-section {
+    width: 90%;
+
+    padding: 60px 0;
+  }
+
+  .section-title-center {
+    margin-bottom: 50px;
+  }
+
+  .section-title-center h2 {
+    font-size: 30px;
+  }
+
+
+  /* TIMELINE */
+
+  .timeline::before {
+    left: 21px;
+  }
+
+  .timeline-item {
+    gap: 16px;
+
+    margin-bottom: 45px;
+  }
+
+  .timeline-dot {
+    width: 43px;
+    height: 43px;
+  }
+
+  .timeline-content {
+    min-width: 0;
+  }
+
+  .timeline-content > span {
+    font-size: 20px;
+  }
+
+  .timeline-content h3 {
+    font-size: 18px;
+
+    line-height: 1.4;
+  }
+
+  .timeline-content p {
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+
+  /* CURRENT FOCUS */
+
+  .focus-section {
+    width: 90%;
+
+    padding: 60px 0 80px;
+  }
+
+  .focus-content {
+    padding: 35px 20px;
+
+    border-radius: 16px;
+  }
+
+  .focus-content h2 {
+    font-size: 30px;
+
+    line-height: 1.2;
+  }
+
+  .focus-content > p:not(.section-label) {
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+  .focus-btn {
+    padding: 11px 18px;
+
+    font-size: 14px;
+  }
+}
+
+
+/* =========================
+   VERY SMALL PHONES
+========================= */
+
+@media (max-width: 380px) {
+
+  .about-hero {
+    padding-top: 40px;
+  }
+
+  .about-heading h1 {
+    font-size: 36px;
+  }
+
+  .about-intro {
+    font-size: 15px;
+  }
+
+  .story-text h2 {
+    font-size: 27px;
+  }
+
+  .section-title-center h2 {
+    font-size: 27px;
+  }
+
+  .timeline-item {
+    gap: 12px;
+  }
+
+  .timeline-dot {
+    width: 38px;
+    height: 38px;
+  }
+
+  .timeline::before {
+    left: 19px;
+  }
+
+  .timeline-content > span {
+    font-size: 18px;
+  }
+
+  .timeline-content h3 {
+    font-size: 17px;
+  }
+
+  .timeline-content p {
+    font-size: 13px;
+  }
+}
