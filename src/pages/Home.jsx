@@ -20,7 +20,7 @@ function Home() {
         </p>
 
         <h1>
-          Mayank
+          Mayank Gautam
         </h1>
 
         <h2>
