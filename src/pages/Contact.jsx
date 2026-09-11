@@ -89,15 +89,15 @@ function Contact() {
 
   <input
     type="hidden"
-    name="_captcha"
-    value="false"
-  />
-
-  <input
-    type="hidden"
     name="_template"
     value="table"
   />
+
+  <input
+  type="hidden"
+  name="_next"
+  value="https://mayank-portfolio-xi-henna.vercel.app/message-sent"
+/>
 
   <div className="form-group">
     <label htmlFor="name">Name</label>

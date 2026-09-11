@@ -1,0 +1,64 @@
+.message-sent-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background:
+    radial-gradient(circle at top, rgba(37, 99, 235, 0.12), transparent 40%),
+    #030712;
+}
+
+.message-sent-card {
+  width: min(560px, 100%);
+  padding: 55px 40px;
+  text-align: center;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(96, 165, 250, 0.18);
+  border-radius: 20px;
+}
+
+.success-icon {
+  color: #60a5fa;
+  margin-bottom: 22px;
+}
+
+.message-sent-card h1 {
+  font-size: 36px;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+
+.message-sent-card p {
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.back-home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.back-home-btn:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .message-sent-card {
+    padding: 40px 25px;
+  }
+
+  .message-sent-card h1 {
+    font-size: 30px;
+  }
+}

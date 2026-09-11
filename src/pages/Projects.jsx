@@ -1,16 +1,15 @@
 import {
   QrCode,
   UserCheck,
-  ArrowUpRight,
 } from "lucide-react";
 
+import ProjectCard from "../components/ProjectCard";
 import "./Projects.css";
 
 function Projects() {
   return (
     <main className="projects-page">
 
-      {/* HEADER */}
       <section className="projects-header">
         <p className="section-label">MY PROJECTS</p>
 
@@ -24,89 +23,35 @@ function Projects() {
         </p>
       </section>
 
-
-      {/* PROJECTS */}
       <section className="projects-grid">
 
-        {/* PARTTRACK PRO */}
-        <article className="project-card">
-
-          <div className="project-top">
-
-            <div className="project-icon">
-              <QrCode size={28} />
-            </div>
-
-            <span className="project-number">
-              01
-            </span>
-
-          </div>
-
-          <h2>PartTrack Pro</h2>
-
-          <p className="project-type">
-            QR Inventory Tracking System
-          </p>
-
-          <p className="project-description">
-            A web-based inventory management system designed to
-            track parts using QR codes. The system manages parts,
-            quantities, locations and  history through a
-            centralized backend.
-          </p>
-
-          <div className="project-features">
-            <span>QR Code Tracking</span>
-            <span>Inventory Management</span>
-            <span>Manage History</span>
-            <span>REST API</span>
-          </div>
-
-          <div className="project-tech">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>MySQL</span>
-          </div>
-
-          <div className="project-actions">
-
-  <a
-  href="https://github.com/mkgtm28/PartTrack-Pro"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="project-link secondary-project-link"
->
-  GitHub
-  <ArrowUpRight size={17} />
-</a>
-
-  <a
-  href="https://github.com/mkgtm28/PartTrack-Pro"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="project-link primary-project-link"
->
-  View Project
-  <ArrowUpRight size={17} />
-</a>
-
-</div>
-
-        </article>
-
-
-        
+        <ProjectCard
+          number="01"
+          icon={<QrCode size={28} />}
+          title="PartTrack Pro"
+          type="QR Inventory Tracking System"
+          description="A web-based inventory management system designed to track parts using QR codes. The system manages parts, quantities, locations, and scan history through a centralized backend."
+          features={[
+            "QR Code Tracking",
+            "Inventory Management",
+            "Manage History",
+            "REST API",
+          ]}
+          tech={[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "MySQL",
+          ]}
+          github="https://github.com/mkgtm28/PartTrack-Pro"
+          projectLink="https://github.com/mkgtm28/PartTrack-Pro"
+        />
 
       </section>
 
-
-      {/* MORE PROJECTS */}
       <section className="more-projects">
-
         <p className="section-label">MORE TO COME</p>
 
         <h2>
@@ -118,7 +63,6 @@ function Projects() {
           backend development, Python, FastAPI and eventually
           Artificial Intelligence and Machine Learning.
         </p>
-
       </section>
 
     </main>

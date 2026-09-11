@@ -7,7 +7,7 @@ import {
 
 
 import mayankPhoto from "../assets/images/mayank.png";
-
+import GithubIcon from "../components/GithubIcon";
 function Home() {
   return (
     <section className="home">
@@ -55,7 +55,7 @@ function Home() {
     rel="noopener noreferrer"
     aria-label="GitHub"
   >
-    GH
+    <GithubIcon size={20} />
   </a>
 
   
