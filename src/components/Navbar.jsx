@@ -18,7 +18,7 @@ function Navbar() {
         {/* Logo */}
         <NavLink to="/" className="logo" onClick={closeMenu}>
           <span className="logo-mark">
-  <MgLogo size={48} />
+  <img src="/mg-favicon.png" alt="MG" />
 </span>
           <span className="logo-name">Mayank Gautam</span>
         </NavLink>
