@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import MgLogo from "./MgLogo";
 
 import "./Navbar.css";
 
@@ -16,7 +17,9 @@ function Navbar() {
 
         {/* Logo */}
         <NavLink to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-mark">MG</span>
+          <span className="logo-mark">
+  <MgLogo size={48} />
+</span>
           <span className="logo-name">Mayank Gautam</span>
         </NavLink>
 
