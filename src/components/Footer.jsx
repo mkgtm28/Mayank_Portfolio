@@ -14,7 +14,9 @@ function Footer() {
       <div className="footer-container">
 
         <div className="footer-brand">
-          <div className="footer-logo">MG</div>
+          <div className="footer-logo">
+  <img src="/mg-favicon.png" alt="MG" />
+</div>
 
           <div>
             <h3>Mayank Gautam</h3>
