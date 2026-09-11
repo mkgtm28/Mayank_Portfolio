@@ -1,9 +1,11 @@
 .message-sent-page {
   min-height: calc(100vh - 70px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 110px 20px 60px;
+  box-sizing: border-box;
+
   background:
     radial-gradient(circle at top, rgba(37, 99, 235, 0.12), transparent 40%),
     #030712;
