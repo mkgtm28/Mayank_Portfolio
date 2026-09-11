@@ -16,8 +16,8 @@ function Navbar() {
 
         {/* Logo */}
         <NavLink to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-mark">M</span>
-          <span className="logo-name">Mayank </span>
+          <span className="logo-mark">MG</span>
+          <span className="logo-name">Mayank Gautam</span>
         </NavLink>
 
         {/* Desktop Navigation */}
