@@ -136,7 +136,7 @@ function About() {
               <span>02</span>
               <h3>Full-Stack Development</h3>
               <p>
-                Built applications using HTML, CSS, JavaScript,
+                Built applications using HTML, CSS, JavaScript, React.js,
                 Node.js, Express.js and MySQL while learning how
                 frontend and backend systems work together.
               </p>
