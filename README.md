@@ -2,7 +2,7 @@
 
 > Personal developer portfolio showcasing my skills, projects, and journey in software development.
 
-[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit-blue?style=for-the-badge)](https://mayank-portfolio-xi-henna.vercel.app/)
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit-blue?style=for-the-badge)](https://mayank-portfolio-pearl.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-mkgtm28-black?style=for-the-badge&logo=github)](https://github.com/mkgtm28)
 
 ---
@@ -10,7 +10,7 @@
 ## 🌐 Live Portfolio
 
 **Visit my portfolio:**  
-https://mayank-portfolio-xi-henna.vercel.app/
+https://mayank-portfolio-pearl.vercel.app/
 
 ---
 
