@@ -96,7 +96,7 @@ function Contact() {
   <input
   type="hidden"
   name="_next"
-  value="https://mayank-portfolio-xi-henna.vercel.app/message-sent"
+  value="https://mayank-portfolio-pearl.vercel.app/message-sent"
 />
 
   <div className="form-group">
