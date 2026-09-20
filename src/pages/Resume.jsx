@@ -18,7 +18,7 @@ function Resume() {
         <p className="resume-label">MY RESUME</p>
 
         <h1>
-          Mayank 
+          Mayank Gautam
         </h1>
 
         <h2>Full Stack Developer | Backend Developer</h2>
