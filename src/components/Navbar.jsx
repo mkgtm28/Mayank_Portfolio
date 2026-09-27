@@ -54,7 +54,7 @@ function Navbar() {
 
         {/* Resume Button */}
 <a
-  href="/Mayank_Resume.pdf"
+  href="#"
   className="resume-btn"
   download
 >

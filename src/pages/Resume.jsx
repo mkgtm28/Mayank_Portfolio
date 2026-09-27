@@ -30,7 +30,7 @@ function Resume() {
         </p>
 
         <div className="resume-actions">
-          <a href="/Mayank_Resume.pdf" className="resume-download" download>
+          <a href="#" className="resume-download" download>
             <Download size={18} />
             Download Resume
           </a>
