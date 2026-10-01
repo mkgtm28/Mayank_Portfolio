@@ -76,7 +76,7 @@ function Skills() {
             <span>Node.js</span>
             <span>Express.js</span>
             <span>Python</span>
-            <span>FastAPI</span>
+            {/* <span>FastAPI</span> */}
             <span>REST APIs</span>
           </div>
 
