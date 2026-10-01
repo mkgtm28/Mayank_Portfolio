@@ -8,12 +8,17 @@ import {
 
 import mayankPhoto from "../assets/images/mayank.png";
 import GithubIcon from "../components/GithubIcon";
+import TechMarquee from "../components/TechMarquee";
+
 function Home() {
   return (
     <section className="home">
 
+
       {/* Hero Content */}
       <div className="hero-content">
+        
+        < TechMarquee />
 
         <p className="hero-greeting">
           👋 Hi, I'm
@@ -24,12 +29,12 @@ function Home() {
         </h1>
 
         <h2>
-          Backend Developer
+          Web Developer
         </h2>
 
         <p className="hero-description">
-          I build practical web applications and backend systems,
-          with a growing focus on Python and modern backend technologies.
+          I build practical web applications and user interfaces,
+          with a growing focus on modern web technologies.
         </p>
 
         {/* Buttons */}
@@ -49,24 +54,24 @@ function Home() {
 
         {/* Social Links */}
         <div className="social-links">
-  <a
-    href="https://github.com/mkgtm28"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="GitHub"
-  >
-    <GithubIcon size={20} />
-  </a>
+          <a
+            href="https://github.com/mkgtm28"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <GithubIcon size={20} />
+          </a>
 
-  
 
-  <a
-    href="mailto:mkgtm28@gmail.com"
-    aria-label="Email"
-  >
-    <Mail size={21} />
-  </a>
-</div>
+
+          <a
+            href="mailto:mkgtm28@gmail.com"
+            aria-label="Email"
+          >
+            <Mail size={21} />
+          </a>
+        </div>
 
       </div>
 
