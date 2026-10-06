@@ -18,8 +18,8 @@ function Navbar() {
         {/* Logo */}
         <NavLink to="/" className="logo" onClick={closeMenu}>
           <span className="logo-mark">
-  <img src="/mg-favicon.png" alt="MG" />
-</span>
+            <img src="/mg-favicon.png" alt="MG" />
+          </span>
           <span className="logo-name">Mayank Gautam</span>
         </NavLink>
 
@@ -53,14 +53,14 @@ function Navbar() {
         </div>
 
         {/* Resume Button */}
-<a
-  href="#"
-  className="resume-btn"
-  download
->
-  Download Resume
-  <span>↓</span>
-</a>
+        <a
+          href="#"
+          className="resume-btn"
+          download
+        >
+          Download Resume
+          <span>↓</span>
+        </a>
 
         {/* Mobile Menu Button */}
         <button
