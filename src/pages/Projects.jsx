@@ -71,7 +71,7 @@ function Projects() {
         <ProjectCard
           number="03"
           icon={<QrCode size={28} />}
-          title="E-Commerce Platform"
+          title="ShopEase"
           type="Online Shopping Website"
           description="A full-featured e-commerce platform that allows users to browse products, add items to their cart, and complete purchases securely."
           features={[
