@@ -48,6 +48,69 @@ function Projects() {
           github="https://github.com/mkgtm28/PartTrack-Pro"
           projectLink="https://github.com/mkgtm28/PartTrack-Pro"
         />
+        <ProjectCard
+          number="02"
+          icon={<UserCheck size={28} />}
+          title="Personal Portfolio"
+          type="Developer Portfolio"
+          description="A responsive personal portfolio website showcasing my skills, projects, and experience as a developer."
+          features={[
+            "Responsive Design",
+            "Modern UI/UX",
+            "Contact Form",
+            "Project Showcase",
+          ]}
+          tech={[
+            "React",
+            "CSS",
+            "JavaScript",
+          ]}
+          github="https://github.com/mkgtm28/Mayank_Portfolio"
+          projectLink="https://mayank-portfolio-pearl.vercel.app"
+        />
+        <ProjectCard
+          number="03"
+          icon={<QrCode size={28} />}
+          title="E-Commerce Platform"
+          type="Online Shopping Website"
+          description="A full-featured e-commerce platform that allows users to browse products, add items to their cart, and complete purchases securely."
+          features={[
+            "Product Browsing",
+            "Shopping Cart",
+            "Secure Checkout",
+            "User Accounts",
+          ]}
+          tech={[
+            "React",
+            "CSS",
+            "JavaScript",
+            "Node.js",
+            "Django",
+            "MySQL",
+          ]}
+          github="https://github.com/mkgtm28/E-Commerce-Platform"
+          projectLink="https://github.com/mkgtm28/E-Commerce-Platform"
+        />
+        <ProjectCard
+          number="04"
+          icon={<QrCode size={28} />}
+          title="SMRM_project"
+          type="Group Project"
+          description="A collaborative project developed with a team to showcase our skills in web development and project management."
+          features={[
+            "Task Management",
+            "Communication Tools",
+            "Progress Tracking",
+            "File Sharing",
+          ]}
+          tech={[
+            "React",
+            "CSS",
+            "JavaScript",
+          ]}
+          github="https://github.com/mkgtm28/SMRM_project"
+          projectLink="https://github.com/mkgtm28/SMRM_project"
+        />
 
       </section>
 
