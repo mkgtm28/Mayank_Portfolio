@@ -94,7 +94,7 @@ function Projects() {
         <ProjectCard
           number="04"
           icon={<QrCode size={28} />}
-          title="SMRM_project"
+          title="SMRM_Group"
           type="Group Project"
           description="A collaborative project developed with a team to showcase our skills in web development and project management."
           features={[
